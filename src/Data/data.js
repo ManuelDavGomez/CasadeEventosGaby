@@ -23,7 +23,7 @@ export const products = [
   {
     id: "10003",
     name: "Amatista",
-    price: 1500000,
+    price: 1350000,
     imagePrincipal: "https://i.imgur.com/i2WlCut.jpg",
     videosUrl: "https://vimeo.com/1053234367/831f1a9fb4",
     images: [
@@ -44,7 +44,7 @@ export const products = [
   {
     id: "10002",
     name: "Anastasia",
-    price: 1350000,
+    price: 1500000,
     imagePrincipal: "https://i.imgur.com/axmInER.jpg",
     videosUrl: "https://vimeo.com/1053583811/b492f4de21",
     images: [
