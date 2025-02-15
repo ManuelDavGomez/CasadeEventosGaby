@@ -4,16 +4,10 @@ import { useCart } from "../../../context/CartContext.jsx";
 import Image from "next/image.js";
 import Link from "next/link.js";
 import { useState } from "react";
-import ReactPlayer from "react-player/lazy";
 
 export default function DressDetails({ item }) {
   const { addToCart, removeFromCart, cart } = useCart();
   const [selectedImage, setSelectedImage] = useState(null);
-  const [isMuted, setIsMuted] = useState(true);
-
-  const toggleMute = () => {
-    setIsMuted(!isMuted);
-  };
 
   const handleImageClick = (image) => {
     setSelectedImage(image);
@@ -59,7 +53,10 @@ export default function DressDetails({ item }) {
             $ {item.price.toLocaleString("es-ES")}
           </p>
           <p className="mb-5">SKU: #{item.id}</p>
-          <p>Quince años no son solo una edad, sino el comienzo de un viaje lleno de sueños, esperanzas y nuevas historias por escribir.</p>
+          <p>
+            Quince años no son solo una edad, sino el comienzo de un viaje lleno
+            de sueños, esperanzas y nuevas historias por escribir.
+          </p>
 
           <article className="flex items-start gap-3 mt-5 min-[640px]:mx-auto w-[161px] min-[1024px]:mx-0">
             <button
@@ -82,7 +79,7 @@ export default function DressDetails({ item }) {
             </button>
           </article>
           <h4 className="mt-10 mb-5">Compartir Vestido</h4>
-          <ul className="flex justify-start flex-row gap-6 sm:justify-start">
+          <ul className="flex justify-start flex-row gap-6 sm:justify-center lg:justify-start">
             <li className="flex justify-start sm:justify-center lg:justify-start">
               <Link
                 href={`https://wa.me/?text=${encodeURIComponent(shareText)}`}
@@ -130,30 +127,14 @@ export default function DressDetails({ item }) {
       </section>
 
       <article className="h-[100%] mt-20">
-        <button
-          onClick={toggleMute}
-          style={{
-            display: "block",
-            margin: "0px auto 20px auto",
-            backgroundColor: "#947752",
-            color: "white",
-            border: "none",
-            borderRadius: "5px",
-            padding: "10px",
-            cursor: "pointer",
-          }}
-        >
-          {isMuted ? "🔊 Activar" : "🔇 Desactivar"} Sonido del Video
-        </button>
-        <ReactPlayer
-          url={item.videosUrl}
-          width={"90vw"}
-          height={"450px"}
-          playing
-          loop
-          muted={isMuted}
-        />
-
+        <iframe
+          src={item.videosUrl}
+          title={item.name}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+          className="w-[90vw] h-[60vw] min-[640px]:w-[80vw] min-[640px]:h-[50vw] min-[896px]:w-[70vw] min-[896px]:h-[45vw] min-[1150px]:w-[1000px] min-[1150px]:h-[600px]"
+        >Video NO soportado</iframe>
       </article>
 
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-32">
