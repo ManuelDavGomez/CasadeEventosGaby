@@ -4,6 +4,7 @@ import { useCart } from "../../../context/CartContext.jsx";
 import Image from "next/image.js";
 import Link from "next/link.js";
 import { useState } from "react";
+import YouTube from "react-youtube";
 
 export default function DressDetails({ item }) {
   const { addToCart, removeFromCart, cart } = useCart();
@@ -15,6 +16,11 @@ export default function DressDetails({ item }) {
 
   const closeZoom = () => {
     setSelectedImage(null);
+  };
+
+  const extractVideoId = (url) => {
+    const match = url.match(/(?:embed\/|v=)([^&?]+)/);
+    return match ? match[1] : null;
   };
 
   // Verifica si el producto está en el carrito
@@ -127,16 +133,25 @@ export default function DressDetails({ item }) {
       </section>
 
       <article className="h-[100%] mt-20">
-        <iframe
-          src={item.videosUrl}
-          title={item.name}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-          className="w-[90vw] h-[60vw] min-[640px]:w-[80vw] min-[640px]:h-[50vw] min-[896px]:w-[70vw] min-[896px]:h-[45vw] min-[1150px]:w-[1000px] min-[1150px]:h-[600px]"
-        >Video NO soportado</iframe>
+        <YouTube
+          videoId={extractVideoId(item.videosUrl)} // Función para extraer el ID
+          opts={{
+            width: "100%",
+            height: "100%",
+            playerVars: {
+              autoplay: 1,
+              mute: 1,
+              loop: 1,
+              modestbranding: 1,
+              rel: 0,
+              playlist: extractVideoId(item.videosUrl),
+            },
+          }}
+          className="w-[90vw] h-[60vw] min-[640px]:w-[80vw] min-[640px]:h-[50vw]
+          min-[896px]:w-[70vw] min-[896px]:h-[45vw] min-[1150px]:w-[1000px]
+          min-[1150px]:h-[600px]"
+        />
       </article>
-
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-32">
         {item.images.map((image, index) => (
           <article key={index} onClick={() => handleImageClick(image)}>

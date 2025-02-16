@@ -5,8 +5,7 @@ export const products = [
     name: "Rojo Escarlata",
     price: 1200000,
     imagePrincipal: "https://i.imgur.com/oXDk1Zm.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/5AExXZXNRT4?si=rIeQYRyH7N5B51Sa&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=5AExXZXNRT4",
     images: [
       "https://i.imgur.com/3IjqoJx.jpg",
       "https://i.imgur.com/DCecoar.jpg",
@@ -26,8 +25,7 @@ export const products = [
     name: "Amatista",
     price: 1350000,
     imagePrincipal: "https://i.imgur.com/i2WlCut.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/IeYeZjGHQto?si=DEDHVJxTh5WWvmvD&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=IeYeZjGHQto",
     images: [
       "https://i.imgur.com/gHl9P0g.jpg",
       "https://i.imgur.com/C3MwTwg.png",
@@ -48,8 +46,7 @@ export const products = [
     name: "Anastasia",
     price: 1500000,
     imagePrincipal: "https://i.imgur.com/axmInER.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/3Nq70Ok3Pto?si=VVYLaP5pxy-XoxFE&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=3Nq70Ok3Pto",
     images: [
       "https://i.imgur.com/FQvVfuC.png",
       "https://i.imgur.com/NMaPo2B.jpg",
@@ -69,8 +66,7 @@ export const products = [
     name: "Esmeralda Glow",
     price: 1400000,
     imagePrincipal: "https://i.imgur.com/7f3pGwI.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/4mN8eRUA7RM?si=7KMbXZ37PNI_6WKP&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=4mN8eRUA7RM",
     images: [
       "https://i.imgur.com/DH2rcEJ.jpg",
       "https://i.imgur.com/k6cxtzu.jpg",
@@ -89,8 +85,7 @@ export const products = [
     name: "Azul Encantado",
     price: 1300000,
     imagePrincipal: "https://i.imgur.com/UCx28lV.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/q-JmfKpljKE?si=gmTTgj6IFPp02dFG&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=q-JmfKpljKE",
     images: [
       "https://i.imgur.com/RyKLOCs.jpg",
       "https://i.imgur.com/Sbmrv9L.jpg",
@@ -109,8 +104,7 @@ export const products = [
     name: "Opalo Gold",
     price: 1200000,
     imagePrincipal: "https://i.imgur.com/6KriZOK.png",
-    videosUrl:
-      "https://www.youtube.com/embed/VJma5xQa90o?si=Q1RyLj_7TiCOrnKO&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=VJma5xQa90o",
     images: [
       "https://i.imgur.com/TRnLlfD.png",
       "https://i.imgur.com/ef2Yb45.png",
@@ -127,8 +121,7 @@ export const products = [
     name: "Celestina",
     price: 1200000,
     imagePrincipal: "https://i.imgur.com/kwUCVLr.png",
-    videosUrl:
-      "https://www.youtube.com/embed/poH9a7TSdjE?si=G-zzTqNiz6ihk3b4&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=poH9a7TSdjE",
     images: [
       "https://i.imgur.com/RNhwDaE.jpg",
       "https://i.imgur.com/RFXQXRJ.png",
@@ -142,8 +135,7 @@ export const products = [
     name: "Cinderella",
     price: 1600000,
     imagePrincipal: "https://i.imgur.com/hvPQAxm.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/FrU5AbPA5Do?si=qAEvP5jFeAMQmmfd&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=FrU5AbPA5Do",
     images: [
       "https://i.imgur.com/9JnZQy5.jpg",
       "https://i.imgur.com/a7f4JoL.jpg",
@@ -157,8 +149,7 @@ export const products = [
     name: "Dalia Azul",
     price: 1300000,
     imagePrincipal: "https://i.imgur.com/3CvG9kH.png",
-    videosUrl:
-      "https://www.youtube.com/embed/LAIUTa0j_ac?si=szghExFUF7N-GDCN&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=LAIUTa0j_ac",
     images: [
       "https://i.imgur.com/KkRunOW.png",
       "https://i.imgur.com/LBU3ija.jpg",
@@ -174,8 +165,7 @@ export const products = [
     name: "Atenea",
     price: 1300000,
     imagePrincipal: "https://i.imgur.com/OnxxEVe.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/u3kz0MxcYfw?si=k9xYvIfQhP2TzQ4_&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=u3kz0MxcYfw",
     images: [
       "https://i.imgur.com/THO01C1.jpg",
       "https://i.imgur.com/bUccuqH.jpg",
@@ -198,8 +188,7 @@ export const products = [
     name: "Aurora",
     price: 1200000,
     imagePrincipal: "https://i.imgur.com/4s7P1Sz.png",
-    videosUrl:
-      "https://www.youtube.com/embed/6TrypKyG8Jo?si=E37drFKgLwSN0zhn&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=6TrypKyG8Jo",
     images: [
       "https://i.imgur.com/IbcK7AV.jpg",
       "https://i.imgur.com/FSTD710.jpg",
@@ -216,8 +205,7 @@ export const products = [
     name: "Noche Azul",
     price: 1400000,
     imagePrincipal: "https://i.imgur.com/6lDzos4.png",
-    videosUrl:
-      "https://www.youtube.com/embed/RMKC58g-Owc?si=GLc6a29Ea1PTHfjL&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=RMKC58g-Owc",
     images: [
       "https://i.imgur.com/Pho1c3p.jpg",
       "https://i.imgur.com/IMPmmm3.png",
@@ -234,8 +222,7 @@ export const products = [
     name: "Verde Imperial",
     price: 1600000,
     imagePrincipal: "https://i.imgur.com/rsDVZgq.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/RMKC58g-Owc?si=GLc6a29Ea1PTHfjL&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=RMKC58g-Owc",
     images: [
       "https://i.imgur.com/S9o1uJm.png",
       "https://i.imgur.com/FUrOi3B.png",
@@ -250,8 +237,7 @@ export const products = [
     name: "Jazmín",
     price: 1200000,
     imagePrincipal: "https://i.imgur.com/J2fnNvR.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/rtKRW3Zzqjk?si=rW6IoWxyMttu3edq&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=rtKRW3Zzqjk",
     images: [
       "https://i.imgur.com/XAEqesY.jpg",
       "https://i.imgur.com/r4D3vj6.jpg",
@@ -268,8 +254,7 @@ export const products = [
     name: "Violet",
     price: 1100000,
     imagePrincipal: "https://i.imgur.com/4mxICsq.png",
-    videosUrl:
-      "https://www.youtube.com/embed/1lPm1USnRSU?si=AnuRB1xCFep5V7cu&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=1lPm1USnRSU",
     images: [
       "https://i.imgur.com/ownULTL.jpg",
       "https://i.imgur.com/9HSnCgh.jpg",
@@ -284,8 +269,7 @@ export const products = [
     name: "Zafiro Real",
     price: 1600000,
     imagePrincipal: "https://i.imgur.com/tFsydS0.png",
-    videosUrl:
-      "https://www.youtube.com/embed/7vno4ecpHvU?si=Ze8_tTw5QRT2n7zp&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=7vno4ecpHvU",
     images: [
       "https://i.imgur.com/VK5p6my.jpg",
       "https://i.imgur.com/vM7Z93U.jpg",
@@ -304,8 +288,7 @@ export const products = [
     name: "Sophie",
     price: 1250000,
     imagePrincipal: "https://i.imgur.com/Yh6ldXJ.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/EkVLqxPFMhg?si=payd8kVDmIsiEu4m&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=EkVLqxPFMhg",
     images: [
       "https://i.imgur.com/Yh6ldXJ.jpg",
       "https://i.imgur.com/E8RZmZl.jpg",
@@ -327,8 +310,7 @@ export const products = [
     name: "Cristal Azul",
     price: 1300000,
     imagePrincipal: "https://i.imgur.com/HJYxKdI.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/lUQ9GrcQbvM?si=xk1SdVqkcpQMXRAA&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=lUQ9GrcQbvM",
     images: [
       "https://i.imgur.com/wfLvYcj.png",
       "https://i.imgur.com/aPuj6Bx.jpg",
@@ -354,8 +336,7 @@ export const products = [
     name: "Mermaid",
     price: 1200000,
     imagePrincipal: "https://i.imgur.com/5zW8fVm.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/RMKC58g-Owc?si=GLc6a29Ea1PTHfjL&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=RMKC58g-Owc",
     images: [
       "https://i.imgur.com/PVWoLBJ.jpg",
       "https://i.imgur.com/bJ7ITo5.jpg",
@@ -378,8 +359,7 @@ export const products = [
     name: "Rapunzel",
     price: 1400000,
     imagePrincipal: "https://i.imgur.com/QalpJXl.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/RMKC58g-Owc?si=GLc6a29Ea1PTHfjL&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=RMKC58g-Owc",
     images: [
       "https://i.imgur.com/2sqlJaH.jpg",
       "https://i.imgur.com/AvLlE5r.jpg",
@@ -395,8 +375,7 @@ export const products = [
     name: "Divina Esmeralda",
     price: 1300000,
     imagePrincipal: "https://i.imgur.com/nZXzlDI.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/RMKC58g-Owc?si=GLc6a29Ea1PTHfjL&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=RMKC58g-Owc",
     images: [
       "https://i.imgur.com/RdtNJaY.jpg",
       "https://i.imgur.com/2kD3wiF.jpg",
@@ -414,8 +393,7 @@ export const products = [
     name: "Lila Princess",
     price: 500000,
     imagePrincipal: "https://i.imgur.com/bnG4KQb.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/RMKC58g-Owc?si=GLc6a29Ea1PTHfjL&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=RMKC58g-Owc",
     images: [
       "https://i.imgur.com/B4TSurZ.jpg",
       "https://i.imgur.com/tSfcBHu.jpg",
@@ -429,8 +407,7 @@ export const products = [
     name: "Violeta Princess",
     price: 600000,
     imagePrincipal: "https://i.imgur.com/iQsANsK.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/RMKC58g-Owc?si=GLc6a29Ea1PTHfjL&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=RMKC58g-Owc",
     images: [
       "https://i.imgur.com/Prt6hqo.jpg",
       "https://i.imgur.com/PH6qU1A.jpg",
@@ -443,8 +420,7 @@ export const products = [
     name: "Esfera Azul Princess",
     price: 600000,
     imagePrincipal: "https://i.imgur.com/oZjcvv7.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/RMKC58g-Owc?si=GLc6a29Ea1PTHfjL&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=RMKC58g-Owc",
     images: [
       "https://i.imgur.com/JKV4Z1F.jpg",
       "https://i.imgur.com/sXRKJpS.jpg",
@@ -458,8 +434,7 @@ export const products = [
     name: "Purple Princess",
     price: 450000,
     imagePrincipal: "https://i.imgur.com/Xj4lOhH.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/RMKC58g-Owc?si=GLc6a29Ea1PTHfjL&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=RMKC58g-Owc",
     images: [
       "https://i.imgur.com/z3tRfNu.jpg",
       "https://i.imgur.com/z3tRfNu.jpg",
@@ -470,8 +445,7 @@ export const products = [
     name: "Azul Royal Princess",
     price: 500000,
     imagePrincipal: "https://i.imgur.com/qxeXWvp.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/RMKC58g-Owc?si=GLc6a29Ea1PTHfjL&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=RMKC58g-Owc",
     images: [
       "https://i.imgur.com/qxeXWvp.jpg",
       "https://i.imgur.com/lSuWr8R.jpg",
@@ -483,8 +457,7 @@ export const products = [
     name: "Rubí Princess",
     price: 600000,
     imagePrincipal: "https://i.imgur.com/ALx9noH.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/qbK44RT9mgI?si=8QX6muLxm29-zoR-&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=qbK44RT9mgI",
     images: [
       "https://i.imgur.com/aTC8KeW.jpg",
       "https://i.imgur.com/dPnoMVg.jpg",
@@ -496,8 +469,7 @@ export const products = [
     name: "Rosa Sweet Princess",
     price: 600000,
     imagePrincipal: "https://i.imgur.com/IUXzVK3.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/JuICZqhC6e0?si=8nSA2Qbf0sIsRHOe&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=JuICZqhC6e0",
     images: [
       "https://i.imgur.com/IUXzVK3.jpg",
       "https://i.imgur.com/H2TU6VY.jpg",
@@ -508,8 +480,7 @@ export const products = [
     name: "Rojo Princess",
     price: 450000,
     imagePrincipal: "https://i.imgur.com/X421czD.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/tbH61RrRcOw?si=e-BbHIyh0PXKwhpn&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=tbH61RrRcOw",
     images: [
       "https://i.imgur.com/x6XmHYN.jpg",
       "https://i.imgur.com/x6XmHYN.jpg",
@@ -520,8 +491,7 @@ export const products = [
     name: "Verde Princess",
     price: 500000,
     imagePrincipal: "https://i.imgur.com/Td90Fiy.jpg",
-    videosUrl:
-      "https://www.youtube.com/embed/RMKC58g-Owc?si=GLc6a29Ea1PTHfjL&mute=1&loop=1&autoplay=1",
+    videosUrl: "https://www.youtube.com/watch?v=RMKC58g-Owc",
     images: [
       "https://i.imgur.com/pp6d1t6.jpg",
       "https://i.imgur.com/qCYkyc1.jpg",
